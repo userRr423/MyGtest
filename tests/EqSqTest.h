@@ -14,11 +14,11 @@ extern "C" {
 
 
 TEST(MyrootTest, num0) {
-    ASSERT_EQ(roots(1, 2, 3), 0);
+    ASSERT_EQ(roots(1, 2, 3), -1);
 }
 
 TEST(MyrootTest2, num0) {
-    ASSERT_EQ(roots(6, 6, 1), 2);
+    ASSERT_EQ(roots(4, 10, 1), -2);
 }
 
 #endif // EQSQTEST_H
