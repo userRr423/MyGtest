@@ -1,7 +1,7 @@
 #ifndef EQSQ_H
 #define EQSQ_H
 
-int roots(double a, double b, double c);
+void roots(float a, float b, float c, float* root1, float* root2);
 
 extern int val;
 
